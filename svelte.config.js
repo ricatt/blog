@@ -25,8 +25,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : '/blog',
-			assets: process.argv.includes('dev') ? '' : '/blog'
+			base: process.argv.includes('dev') ? '' : '/blog'
 		}
 	}
 };
